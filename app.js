@@ -6,7 +6,7 @@ let myHtml;
 myHtml=`
 <ul>
    <li>Name: ${name}</li>
-   <li>Age: ${age}</li>
+   <li id='age'>Age: ${age}</li>
    <li>Job: ${job}</li>
 </ul>
 `;

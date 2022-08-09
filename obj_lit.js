@@ -2,5 +2,7 @@
 const person={
    firstName='John',
    lastNamr='Doe',
-   email=
+   email='jd@aol.com',
+
 }
+console.log person;

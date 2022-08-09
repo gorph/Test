@@ -1,8 +1,8 @@
 //Object Literals
 const person={
-   firstName='John',
-   lastNamr='Doe',
-   email='jd@aol.com'
+   firstName:'John',
+   lastName:'Doe',
+   email:'jd@aol.com'
 
 }
-console.log person;
+console.log (person);

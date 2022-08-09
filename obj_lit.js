@@ -2,7 +2,20 @@
 const person={
    firstName:'John',
    lastName:'Doe',
-   email:'jd@aol.com'
+   age: 30,
+   email:'jd@aol.com',
+   hobbies: ['tennis','soccer'],
+   address: {
+      city: 'WPB',
+      state: 'FL'
+   },
+   getBirthYear: function(){
+      return 2022-this.age;       //this used for object info
+   }
 
 }
+let var= string.concat(person.firstName, ' was born in ',person.getBirthYear()); 
 console.log (person);
+console.log(person.address.city);
+
+console.log(var);

@@ -20,4 +20,4 @@ console.log(person.address.city);
 
 console.log(data);
 
-document.getElementById('obj_lit').innerHTML+=data;
+document.getElementById("obj_lit").innerHTML+=data;

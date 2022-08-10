@@ -19,3 +19,6 @@ myHtml=`
 `;
 
 document.getElementById("ulist").insertAdjacentHTML("afterend","<h3>List Example 1</h3>");
+function addList(){
+   document.getElementById("ulist").insertAdjacentHTML("afterend",myHtml);
+}

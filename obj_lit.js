@@ -14,10 +14,14 @@ const person={
    }
 
 }
-let data= string.concat(person.firstName, ' was born in ',person.getBirthYear()); 
+let data= person.firstName + ' was born in '+ person.getBirthYear(); 
 console.log (person);
 console.log(person.address.city);
 
 console.log(data);
 
-document.getElementById("obj_lit").innerHTML+=data;
+let myHtml1=`
+<p>${data}</P
+`;
+
+document.getElementById("obj_lit").innerHTML+=myHtml1;

@@ -18,6 +18,6 @@ let data= string.concat(person.firstName, ' was born in ',person.getBirthYear())
 console.log (person);
 console.log(person.address.city);
 
-console.log(var);
+console.log(data);
 
 document.getElementById('obj_lit').innerHTML+=data;

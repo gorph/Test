@@ -21,7 +21,7 @@ console.log(person.address.city);
 console.log(data);
 
 let myHtml1=`
-<p>${data}</P
+<p>${data}</p>
 `;
 
 document.getElementById("obj_lit").innerHTML+=myHtml1;

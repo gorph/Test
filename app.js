@@ -16,6 +16,7 @@ myHtml=`
    <li>${age>30 ? 'Over 30':'Under 30'}</li>
    <li>Msg: ${hello()}</li>
 </ul>
+<p div='obj_lit'>Insert Other Messages Here</p>
 `;
 
 document.body.innerHTML=myHtml;

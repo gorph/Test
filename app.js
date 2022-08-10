@@ -18,4 +18,4 @@ myHtml=`
 </ul>
 `;
 
-document.getElementById("ulist").innerHTML=myHtml;
+document.getElementById("ulist").insertAdjacentHTML("afterend","<h3>List Example</h3>");
